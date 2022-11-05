@@ -2,12 +2,12 @@ import PropTypes from 'prop-types';
 import {CounterButton} from './Button.styled';
 
 export const CounterButtons = ({ options, onLeaveFeedback }) => {
-  return  Object.keys(options).map(key => (
+  return  Object.keys(options).map(option => (
       <CounterButton
-        type='button'
-        onClick={onLeaveFeedback(key)}
-        key={key}>
-        {key}
+      type='button'
+      onClick={onLeaveFeedback(option)}
+      key={option}>
+        {option}
       </CounterButton>
    ))
   };
