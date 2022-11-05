@@ -15,7 +15,7 @@ export class App extends Component{
      bad: 0
    };
 
-   handleIncrement = e => {
+   handleIncrement = e => () => {
     this.setState(prevState => ({
       [e]: prevState[e] + 1,
     }));

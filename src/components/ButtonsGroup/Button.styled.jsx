@@ -7,8 +7,8 @@ export const CounterControls = styled.div`
 export const CounterButton = styled.button`
   margin-left: 5px;
   width: 110px;
-  padding: 5px 0;
-  font-size: 14px;
+  padding: 15px 0;
+  font-size: 20px;
   text-transform: capitalize;
   border-radius: 4px;
   border: 1px solid lightgray;

@@ -5,7 +5,7 @@ export const CounterButtons = ({ options, onLeaveFeedback }) => {
   return  Object.keys(options).map(key => (
       <CounterButton
         type='button'
-        onClick={() => onLeaveFeedback(key)}
+        onClick={onLeaveFeedback(key)}
         key={key}>
         {key}
       </CounterButton>

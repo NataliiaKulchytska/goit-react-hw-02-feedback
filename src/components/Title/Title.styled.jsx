@@ -3,13 +3,12 @@ import styled from '@emotion/styled';
 export const SectionTitle = styled.section`
  align-items: center;
   margin-bottom: 40px;
-  margin-left: 30px;
-  font-size: 16px;
+  margin-left: 30px;  
 `;
 
 export const Title = styled.h2`
- font-size: 24px;
+ font-size: 36px;
  margin-bottom: 15px;
-
+color: #2D4D4D;
 `;
 
